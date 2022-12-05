@@ -1,0 +1,2148 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="870" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="502" />
+          <Fields>
+            <Field name="Instructions" />
+          </Fields>
+          <Data>
+            <r>
+              <c>move 2 from 8 to 2</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 5 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 2</c>
+            </r>
+            <r>
+              <c>move 8 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 6 from 7 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 4 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 5 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 8 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 4 from 3 to 6</c>
+            </r>
+            <r>
+              <c>move 10 from 2 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 18 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 4 from 7 to 3</c>
+            </r>
+            <r>
+              <c>move 12 from 8 to 4</c>
+            </r>
+            <r>
+              <c>move 4 from 7 to 9</c>
+            </r>
+            <r>
+              <c>move 5 from 6 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 7</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 8</c>
+            </r>
+            <r>
+              <c>move 10 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 8</c>
+            </r>
+            <r>
+              <c>move 10 from 1 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 5</c>
+            </r>
+            <r>
+              <c>move 16 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 2</c>
+            </r>
+            <r>
+              <c>move 3 from 8 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 5 from 4 to 1</c>
+            </r>
+            <r>
+              <c>move 4 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 9</c>
+            </r>
+            <r>
+              <c>move 23 from 8 to 4</c>
+            </r>
+            <r>
+              <c>move 6 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 5 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 35 from 4 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 2 from 8 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 8</c>
+            </r>
+            <r>
+              <c>move 3 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 4 from 3 to 7</c>
+            </r>
+            <r>
+              <c>move 6 from 7 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 1</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 8 to 2</c>
+            </r>
+            <r>
+              <c>move 3 from 7 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 9</c>
+            </r>
+            <r>
+              <c>move 5 from 9 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 4</c>
+            </r>
+            <r>
+              <c>move 7 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 4 to 7</c>
+            </r>
+            <r>
+              <c>move 24 from 9 to 4</c>
+            </r>
+            <r>
+              <c>move 12 from 9 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 8</c>
+            </r>
+            <r>
+              <c>move 3 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 23 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 17 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 12 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 10 from 8 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 6</c>
+            </r>
+            <r>
+              <c>move 5 from 4 to 3</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 6 from 5 to 4</c>
+            </r>
+            <r>
+              <c>move 10 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 9 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 4 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 4 from 8 to 1</c>
+            </r>
+            <r>
+              <c>move 4 from 3 to 7</c>
+            </r>
+            <r>
+              <c>move 4 from 6 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 7</c>
+            </r>
+            <r>
+              <c>move 3 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 9 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 7 from 9 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 5 from 8 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 8</c>
+            </r>
+            <r>
+              <c>move 23 from 7 to 8</c>
+            </r>
+            <r>
+              <c>move 27 from 8 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 8 to 1</c>
+            </r>
+            <r>
+              <c>move 23 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 3</c>
+            </r>
+            <r>
+              <c>move 4 from 2 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 3</c>
+            </r>
+            <r>
+              <c>move 4 from 1 to 4</c>
+            </r>
+            <r>
+              <c>move 13 from 7 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 3</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 3</c>
+            </r>
+            <r>
+              <c>move 5 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 9</c>
+            </r>
+            <r>
+              <c>move 11 from 6 to 9</c>
+            </r>
+            <r>
+              <c>move 9 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 17 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 7 to 4</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 14 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 5 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 5 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 4</c>
+            </r>
+            <r>
+              <c>move 7 from 1 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 8 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 8</c>
+            </r>
+            <r>
+              <c>move 10 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 10 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 8 from 9 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 5 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 7 from 7 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 10 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 3</c>
+            </r>
+            <r>
+              <c>move 4 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 8 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 1 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 8 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 7 to 6</c>
+            </r>
+            <r>
+              <c>move 3 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 10 from 5 to 7</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 11 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 12 from 1 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 5</c>
+            </r>
+            <r>
+              <c>move 9 from 7 to 3</c>
+            </r>
+            <r>
+              <c>move 5 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 4 from 4 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 9 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 8</c>
+            </r>
+            <r>
+              <c>move 6 from 9 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 4</c>
+            </r>
+            <r>
+              <c>move 9 from 3 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 5</c>
+            </r>
+            <r>
+              <c>move 14 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 5 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 3 from 8 to 2</c>
+            </r>
+            <r>
+              <c>move 5 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 5 from 4 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 3</c>
+            </r>
+            <r>
+              <c>move 7 from 5 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 8 to 1</c>
+            </r>
+            <r>
+              <c>move 14 from 3 to 4</c>
+            </r>
+            <r>
+              <c>move 8 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 15 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 7 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 6 from 1 to 3</c>
+            </r>
+            <r>
+              <c>move 3 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 2 from 4 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 19 from 6 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 8</c>
+            </r>
+            <r>
+              <c>move 4 from 5 to 4</c>
+            </r>
+            <r>
+              <c>move 7 from 8 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 13 from 8 to 6</c>
+            </r>
+            <r>
+              <c>move 4 from 4 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 5</c>
+            </r>
+            <r>
+              <c>move 19 from 2 to 3</c>
+            </r>
+            <r>
+              <c>move 13 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 8</c>
+            </r>
+            <r>
+              <c>move 3 from 7 to 1</c>
+            </r>
+            <r>
+              <c>move 14 from 6 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 18 from 9 to 4</c>
+            </r>
+            <r>
+              <c>move 3 from 7 to 2</c>
+            </r>
+            <r>
+              <c>move 15 from 1 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 8</c>
+            </r>
+            <r>
+              <c>move 5 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 6</c>
+            </r>
+            <r>
+              <c>move 5 from 8 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 7</c>
+            </r>
+            <r>
+              <c>move 30 from 4 to 6</c>
+            </r>
+            <r>
+              <c>move 22 from 6 to 9</c>
+            </r>
+            <r>
+              <c>move 6 from 9 to 4</c>
+            </r>
+            <r>
+              <c>move 4 from 6 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 6</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 3</c>
+            </r>
+            <r>
+              <c>move 5 from 6 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 1 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 17 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 8 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 8 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 6</c>
+            </r>
+            <r>
+              <c>move 4 from 7 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 8</c>
+            </r>
+            <r>
+              <c>move 19 from 8 to 3</c>
+            </r>
+            <r>
+              <c>move 5 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 5 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 3</c>
+            </r>
+            <r>
+              <c>move 6 from 1 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 4 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 12 from 8 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 1 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 4</c>
+            </r>
+            <r>
+              <c>move 4 from 4 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 3</c>
+            </r>
+            <r>
+              <c>move 9 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 9</c>
+            </r>
+            <r>
+              <c>move 5 from 9 to 7</c>
+            </r>
+            <r>
+              <c>move 9 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 6 from 2 to 8</c>
+            </r>
+            <r>
+              <c>move 21 from 3 to 2</c>
+            </r>
+            <r>
+              <c>move 12 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 5 from 9 to 6</c>
+            </r>
+            <r>
+              <c>move 13 from 2 to 3</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 10 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 6 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 7</c>
+            </r>
+            <r>
+              <c>move 5 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 1 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 6 from 5 to 7</c>
+            </r>
+            <r>
+              <c>move 12 from 9 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 8</c>
+            </r>
+            <r>
+              <c>move 11 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 9 from 5 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 1</c>
+            </r>
+            <r>
+              <c>move 4 from 8 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 7</c>
+            </r>
+            <r>
+              <c>move 2 from 8 to 3</c>
+            </r>
+            <r>
+              <c>move 42 from 7 to 4</c>
+            </r>
+            <r>
+              <c>move 3 from 7 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 7 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 2</c>
+            </r>
+            <r>
+              <c>move 16 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 3 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 4</c>
+            </r>
+            <r>
+              <c>move 30 from 4 to 6</c>
+            </r>
+            <r>
+              <c>move 15 from 8 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 4 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 7</c>
+            </r>
+            <r>
+              <c>move 13 from 3 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 4 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 6 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 8 to 6</c>
+            </r>
+            <r>
+              <c>move 43 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 18 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 24 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 19 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 4 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 3 from 3 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 3</c>
+            </r>
+            <r>
+              <c>move 23 from 3 to 6</c>
+            </r>
+            <r>
+              <c>move 12 from 4 to 3</c>
+            </r>
+            <r>
+              <c>move 7 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 13 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 4</c>
+            </r>
+            <r>
+              <c>move 4 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 6 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 10 from 9 to 3</c>
+            </r>
+            <r>
+              <c>move 6 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 8 from 3 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 3</c>
+            </r>
+            <r>
+              <c>move 13 from 6 to 5</c>
+            </r>
+            <r>
+              <c>move 4 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 4 from 8 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 5</c>
+            </r>
+            <r>
+              <c>move 14 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 4 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 4 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 6 from 3 to 2</c>
+            </r>
+            <r>
+              <c>move 5 from 6 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 1</c>
+            </r>
+            <r>
+              <c>move 25 from 5 to 7</c>
+            </r>
+            <r>
+              <c>move 3 from 7 to 9</c>
+            </r>
+            <r>
+              <c>move 5 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 12 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 3 from 1 to 6</c>
+            </r>
+            <r>
+              <c>move 16 from 8 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 3</c>
+            </r>
+            <r>
+              <c>move 21 from 7 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 1</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 18 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 13 from 9 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 7</c>
+            </r>
+            <r>
+              <c>move 3 from 2 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 17 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 3 from 3 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 15 from 8 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 6 to 8</c>
+            </r>
+            <r>
+              <c>move 13 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 9 to 8</c>
+            </r>
+            <r>
+              <c>move 9 from 8 to 9</c>
+            </r>
+            <r>
+              <c>move 3 from 3 to 4</c>
+            </r>
+            <r>
+              <c>move 4 from 9 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 5</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 4 from 4 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 2</c>
+            </r>
+            <r>
+              <c>move 4 from 2 to 3</c>
+            </r>
+            <r>
+              <c>move 3 from 2 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 9 to 6</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 3 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 6 to 1</c>
+            </r>
+            <r>
+              <c>move 3 from 5 to 4</c>
+            </r>
+            <r>
+              <c>move 12 from 1 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 2 from 7 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 7</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 3 to 6</c>
+            </r>
+            <r>
+              <c>move 7 from 2 to 8</c>
+            </r>
+            <r>
+              <c>move 3 from 4 to 1</c>
+            </r>
+            <r>
+              <c>move 7 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 7 from 9 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 5</c>
+            </r>
+            <r>
+              <c>move 3 from 7 to 6</c>
+            </r>
+            <r>
+              <c>move 5 from 6 to 9</c>
+            </r>
+            <r>
+              <c>move 6 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 4 from 9 to 6</c>
+            </r>
+            <r>
+              <c>move 1 from 8 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 4 to 2</c>
+            </r>
+            <r>
+              <c>move 2 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 2</c>
+            </r>
+            <r>
+              <c>move 11 from 5 to 3</c>
+            </r>
+            <r>
+              <c>move 2 from 5 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 6 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 3 to 7</c>
+            </r>
+            <r>
+              <c>move 3 from 6 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 7</c>
+            </r>
+            <r>
+              <c>move 18 from 1 to 3</c>
+            </r>
+            <r>
+              <c>move 11 from 3 to 2</c>
+            </r>
+            <r>
+              <c>move 1 from 7 to 9</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 14 from 3 to 6</c>
+            </r>
+            <r>
+              <c>move 15 from 2 to 4</c>
+            </r>
+            <r>
+              <c>move 5 from 2 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 9</c>
+            </r>
+            <r>
+              <c>move 8 from 4 to 1</c>
+            </r>
+            <r>
+              <c>move 5 from 5 to 9</c>
+            </r>
+            <r>
+              <c>move 9 from 4 to 9</c>
+            </r>
+            <r>
+              <c>move 4 from 7 to 4</c>
+            </r>
+            <r>
+              <c>move 5 from 4 to 8</c>
+            </r>
+            <r>
+              <c>move 2 from 9 to 6</c>
+            </r>
+            <r>
+              <c>move 8 from 1 to 8</c>
+            </r>
+            <r>
+              <c>move 1 from 5 to 3</c>
+            </r>
+            <r>
+              <c>move 1 from 3 to 4</c>
+            </r>
+            <r>
+              <c>move 1 from 1 to 8</c>
+            </r>
+            <r>
+              <c>move 13 from 6 to 3</c>
+            </r>
+            <r>
+              <c>move 9 from 9 to 5</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 8</c>
+            </r>
+            <r>
+              <c>move 8 from 5 to 1</c>
+            </r>
+            <r>
+              <c>move 1 from 2 to 7</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Instructions</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="978" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>ID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1074" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Instructions</Field>
+          <RegExExpression value="move (\d+) from (\d+) to (\d+)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Instructions</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Number" type="Int64" size="8" />
+            <Field field="From" type="Int64" size="8" />
+            <Field field="To" type="Int64" size="8" />
+          </ParseComplex>
+          <Match>
+            <Field>Instructions_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="978" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Crate</UpdateField_Name>
+          <CreateField_Name>Order</CreateField_Name>
+          <CreateField_Type>Int64</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[row-1:Order]+1</Expression>
+          <GroupByFields>
+            <Field field="Stack" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[row-1:Order]+1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1302" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Order" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Order - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1398" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False">
+            <Field name="Stack" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1494" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Stack" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Stack - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1578" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Crate" action="Concat" rename="Answer">
+              <Concat_Start />
+              <Separator />
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1674" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ollie\AppData\Local\Temp\Engine_7424_bf1b1485953d4c09994bfba445c42fb4_\Engine_6988_376dfb9ed11a4789869dd52e13ebc88d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="1182" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Radio Button (34)">False</Value>
+          <Value name="Radio Button (36)">True</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Day 5 macro (5)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="G:\My Drive\DS8\Advent of Code\2022\solutions\Day 5 macro.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="-6" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="9" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c><![CDATA[    [H]         [D]     [P]        ]]></c>
+            </r>
+            <r>
+              <c><![CDATA[[W] [B]         [C] [Z] [D]        ]]></c>
+            </r>
+            <r>
+              <c><![CDATA[[T] [J]     [T] [J] [D] [J]        ]]></c>
+            </r>
+            <r>
+              <c>[H] [Z]     [H] [H] [W] [S]     [M]</c>
+            </r>
+            <r>
+              <c>[P] [F] [R] [P] [Z] [F] [W]     [F]</c>
+            </r>
+            <r>
+              <c>[J] [V] [T] [N] [F] [G] [Z] [S] [S]</c>
+            </r>
+            <r>
+              <c>[C] [R] [P] [S] [V] [M] [V] [D] [Z]</c>
+            </r>
+            <r>
+              <c>[F] [G] [H] [Z] [N] [P] [M] [N] [D]</c>
+            </r>
+            <r>
+              <c><![CDATA[ 1   2   3   4   5   6   7   8   9 ]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>crates</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="102" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="198" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="RecordID" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RecordID - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="306" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field1</Field>
+          <RegExExpression value=".(.)..?" />
+          <CaseInsensitve value="True" />
+          <Method>ParseSimple</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Field1</RootName>
+            <NumFields value="9" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_String" size="2147483647" />
+          </ParseComplex>
+          <Match>
+            <Field>Field1_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Tokenise to 9 columns</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="414" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Field11" />
+            <Field name="Field12" />
+            <Field name="Field13" />
+            <Field name="Field14" />
+            <Field name="Field15" />
+            <Field name="Field16" />
+            <Field name="Field17" />
+            <Field name="Field18" />
+            <Field name="Field19" />
+            <Field name="*Unknown" />
+            <Field name="RecordID" selected="False" />
+            <Field name="Field1" selected="False" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Field1" size="35" source="TextInput:" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="1" size="35" source="RegEx: Parsed from Field1" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="2" size="35" source="RegEx: Parsed from Field1" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="3" size="35" source="RegEx: Parsed from Field1" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="4" size="35" source="RegEx: Parsed from Field1" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="5" size="35" source="RegEx: Parsed from Field1" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="6" size="35" source="RegEx: Parsed from Field1" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="7" size="35" source="RegEx: Parsed from Field1" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="8" size="35" source="RegEx: Parsed from Field1" type="String" />
+            <Field description="RegEx: Parsed from Field1" name="9" size="35" source="RegEx: Parsed from Field1" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="498" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="RecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="RecordID" selected="False" />
+            <Field field="Field1" selected="False" />
+            <Field field="1" selected="True" />
+            <Field field="2" selected="True" />
+            <Field field="3" selected="True" />
+            <Field field="4" selected="True" />
+            <Field field="5" selected="True" />
+            <Field field="6" selected="True" />
+            <Field field="7" selected="True" />
+            <Field field="8" selected="True" />
+            <Field field="9" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="Value" selected="True" rename="Crate" />
+            <SelectField field="Name" selected="True" rename="Stack" type="Byte" size="1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Name - stack, Value - crate</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="678" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Stack" order="Ascending" />
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Stack - Ascending
+RecordID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="774" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="858" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsEmpty(TRIM([Crate]))</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty(TRIM([Crate]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="22" Connection="Input24" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="22" Connection="iterative" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output23" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day 5</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="cbc6ddd9-90a4-438d-833d-97780f0bc95a" />
+      <Telemetry>
+        <PreviousWorkflowId value="632dc3c6-350b-44cf-ba7a-89292c62eca0" />
+        <OriginWorkflowId value="02e0ad69-43e5-4c38-9468-6b6b61126f2a" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
