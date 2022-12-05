@@ -1,0 +1,7732 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Demo input</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="258" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field1</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value=" " />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>split to columns</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="SWITCH([2],0,'X',1,'Y',2,'Z',3)" field="2" size="2147483647" type="V_String" />
+            <FormulaField expression="IF ([1]='A' AND [2]='2')&#xA;OR ([1]='B' AND [2]='3')&#xA;OR ([1]='C' AND [2]='1')&#xA;THEN 6&#xA;ELSEIF ([1]='A' AND [2]='1')&#xA;OR ([1]='B' AND [2]='2')&#xA;OR ([1]='C' AND [2]='3') &#xA;THEN 3&#xA;ELSE 0&#xA;ENDIF" field="Result" size="2" type="Int16" />
+            <FormulaField expression="Tonumber([2])+Tonumber([Result])" field="Answer" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Calculate numbers</AnnotationText>
+          <DefaultAnnotationText>2 = SWITCH([2],0,'X',1,'Y',2,'Z',3)
+Result = IF ([1]='A' AND [2]='2')
+OR ([1]='B...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Answer" action="Sum" rename="Answer" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>sum answer</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="150" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2500" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C X</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>A Y</c>
+            </r>
+            <r>
+              <c>A Z</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>B Y</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>B Z</c>
+            </r>
+            <r>
+              <c>A X</c>
+            </r>
+            <r>
+              <c>C Z</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>B X</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+            <r>
+              <c>C Y</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Actual input</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Tonumber(SWITCH([2],[2],'X',0,'Y',3,'Z',6))" field="Result" size="8" type="Int64" />
+            <FormulaField expression="&#xA;IF ([1]='A' AND [Result]=0)&#xA;OR ([1]='B' AND [Result]=6)&#xA;OR ([1]='C' AND [Result]=3)&#xA;THEN 3&#xA;ELSEIF ([1]='A' AND [Result]=6)&#xA;OR ([1]='B' AND [Result]=3)&#xA;OR ([1]='C' AND [Result]=0)&#xA;THEN 2&#xA;ELSEIF ([1]='A' AND [Result]=3)&#xA;OR ([1]='B' AND [Result]=0)&#xA;OR ([1]='C' AND [Result]=6)&#xA;THEN 1&#xA;ELSE 0&#xA;ENDIF" field="2" size="2147483647" type="V_String" />
+            <FormulaField expression="[Result]+tonumber([2])" field="Answer" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Calculate numbers</AnnotationText>
+          <DefaultAnnotationText>Result = Tonumber(SWITCH([2],[2],'X',0,'Y',3,'Z',6))
+2 = 
+IF ([1]='A' AND [Resul...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Answer" action="Sum" rename="Answer" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>sum answer</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day 2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="43f9b97b-15f4-441b-9411-640aaf73962f" />
+      <Telemetry>
+        <PreviousWorkflowId value="f6bab746-9974-4031-9440-b29a463e109e" />
+        <OriginWorkflowId value="f6bab746-9974-4031-9440-b29a463e109e" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
