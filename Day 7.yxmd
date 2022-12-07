@@ -1,0 +1,3690 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="174" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="23" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>$ cd /</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir a</c>
+            </r>
+            <r>
+              <c>14848514 b.txt</c>
+            </r>
+            <r>
+              <c>8504156 c.dat</c>
+            </r>
+            <r>
+              <c>dir d</c>
+            </r>
+            <r>
+              <c>$ cd a</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir e</c>
+            </r>
+            <r>
+              <c>29116 f</c>
+            </r>
+            <r>
+              <c>2557 g</c>
+            </r>
+            <r>
+              <c>62596 h.lst</c>
+            </r>
+            <r>
+              <c>$ cd e</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>584 i</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd d</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>4060174 j</c>
+            </r>
+            <r>
+              <c>8033020 d.log</c>
+            </r>
+            <r>
+              <c>5626152 d.ext</c>
+            </r>
+            <r>
+              <c>7214296 k</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Test Input</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="174" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1030" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>$ cd /</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir drblq</c>
+            </r>
+            <r>
+              <c>133789 fjf</c>
+            </r>
+            <r>
+              <c>dir jpfrhmw</c>
+            </r>
+            <r>
+              <c>dir jqfwd</c>
+            </r>
+            <r>
+              <c>dir ncgffsr</c>
+            </r>
+            <r>
+              <c>12962 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>dir rqdngnrq</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>dir vsd</c>
+            </r>
+            <r>
+              <c>dir vtzvf</c>
+            </r>
+            <r>
+              <c>$ cd drblq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>133843 bglzqdd</c>
+            </r>
+            <r>
+              <c>dir brfnfhj</c>
+            </r>
+            <r>
+              <c>268201 fbqjmp.jzv</c>
+            </r>
+            <r>
+              <c>80676 shcvnqq</c>
+            </r>
+            <r>
+              <c>$ cd brfnfhj</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>150447 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>dir nhvgrzs</c>
+            </r>
+            <r>
+              <c>$ cd nhvgrzs</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>282889 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>19004 ncgffsr.gwr</c>
+            </r>
+            <r>
+              <c>dir vbzr</c>
+            </r>
+            <r>
+              <c>6338 vpsgdph.gbh</c>
+            </r>
+            <r>
+              <c>dir wdcn</c>
+            </r>
+            <r>
+              <c>$ cd vbzr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>225101 fbqjmp</c>
+            </r>
+            <r>
+              <c>243277 vbzr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd wdcn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>154089 dlmpbbf.psv</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd jpfrhmw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>87622 cffdsj.jzf</c>
+            </r>
+            <r>
+              <c>26165 qnbq.sbm</c>
+            </r>
+            <r>
+              <c>dir vbzr</c>
+            </r>
+            <r>
+              <c>$ cd vbzr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir blhstw</c>
+            </r>
+            <r>
+              <c>16919 nttftcts</c>
+            </r>
+            <r>
+              <c>dir rgdp</c>
+            </r>
+            <r>
+              <c>116477 shcvnqq</c>
+            </r>
+            <r>
+              <c>242592 tmjrnqbz.chq</c>
+            </r>
+            <r>
+              <c>dir vbzr</c>
+            </r>
+            <r>
+              <c>dir wmct</c>
+            </r>
+            <r>
+              <c>$ cd blhstw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>98023 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd rgdp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir gcb</c>
+            </r>
+            <r>
+              <c>141507 shcvnqq</c>
+            </r>
+            <r>
+              <c>dir ssvzm</c>
+            </r>
+            <r>
+              <c>$ cd gcb</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>189016 ncgffsr.rbq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ssvzm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>82667 shcvnqq.zjq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vbzr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>120202 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>86205 vbzr.jtr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd wmct</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir fbsfcgph</c>
+            </r>
+            <r>
+              <c>155709 hpsftv</c>
+            </r>
+            <r>
+              <c>13636 lztgs</c>
+            </r>
+            <r>
+              <c>273353 ncgffsr.jsg</c>
+            </r>
+            <r>
+              <c>dir pvwhpfp</c>
+            </r>
+            <r>
+              <c>$ cd fbsfcgph</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>139944 ncgffsr.gpf</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd pvwhpfp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>111230 bscrjpzh.glp</c>
+            </r>
+            <r>
+              <c>dir dgjsddgq</c>
+            </r>
+            <r>
+              <c>37234 lwd</c>
+            </r>
+            <r>
+              <c>107139 lztgs</c>
+            </r>
+            <r>
+              <c>258111 mgtwwvwz</c>
+            </r>
+            <r>
+              <c>117638 qpdvnfb.gnf</c>
+            </r>
+            <r>
+              <c>dir szrplcdw</c>
+            </r>
+            <r>
+              <c>dir vzsl</c>
+            </r>
+            <r>
+              <c>dir wsmf</c>
+            </r>
+            <r>
+              <c>$ cd dgjsddgq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>199119 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd szrplcdw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>122236 qclr.cpf</c>
+            </r>
+            <r>
+              <c>269638 qnbq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vzsl</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>233006 twpz.tdm</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd wsmf</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir wcnptvtz</c>
+            </r>
+            <r>
+              <c>$ cd wcnptvtz</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>183952 shcvnqq.lwt</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd jqfwd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir hqb</c>
+            </r>
+            <r>
+              <c>285121 jqffsjbs.jrm</c>
+            </r>
+            <r>
+              <c>dir nhpqpdn</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>dir qtrv</c>
+            </r>
+            <r>
+              <c>dir wspztvjr</c>
+            </r>
+            <r>
+              <c>$ cd hqb</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>253786 jwdv.qct</c>
+            </r>
+            <r>
+              <c>dir vbzr</c>
+            </r>
+            <r>
+              <c>$ cd vbzr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>153 gbh</c>
+            </r>
+            <r>
+              <c>dir gqpqqrgl</c>
+            </r>
+            <r>
+              <c>dir jzncgd</c>
+            </r>
+            <r>
+              <c>36914 nvdnsnls.mpd</c>
+            </r>
+            <r>
+              <c>$ cd gqpqqrgl</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>206691 dmdgcwm.bgh</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd jzncgd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>122640 vrgmf.tnp</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd nhpqpdn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>86329 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>76269 fbqjmp.lbd</c>
+            </r>
+            <r>
+              <c>118968 fbqjmp.msg</c>
+            </r>
+            <r>
+              <c>190416 gfwhsb.dpc</c>
+            </r>
+            <r>
+              <c>dir lhgjrmj</c>
+            </r>
+            <r>
+              <c>dir pbv</c>
+            </r>
+            <r>
+              <c>173541 pfl</c>
+            </r>
+            <r>
+              <c>141842 srrmt.ssj</c>
+            </r>
+            <r>
+              <c>$ cd lhgjrmj</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir ghccnw</c>
+            </r>
+            <r>
+              <c>180420 ldzcj.rwz</c>
+            </r>
+            <r>
+              <c>149356 lztgs</c>
+            </r>
+            <r>
+              <c>61792 ncgffsr</c>
+            </r>
+            <r>
+              <c>dir spmbcjhc</c>
+            </r>
+            <r>
+              <c>$ cd ghccnw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>253233 lztgs</c>
+            </r>
+            <r>
+              <c>56439 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>19225 ntrmjf.gdb</c>
+            </r>
+            <r>
+              <c>31628 pdhhzjhm.lbd</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd spmbcjhc</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>122334 drjbh</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd pbv</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>69436 cctsjqh.wqr</c>
+            </r>
+            <r>
+              <c>285573 ljtqddz</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qtrv</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>234568 dmwqfbwd</c>
+            </r>
+            <r>
+              <c>dir pwwsrjc</c>
+            </r>
+            <r>
+              <c>245046 qmcr</c>
+            </r>
+            <r>
+              <c>159151 qtvdjncm.rdb</c>
+            </r>
+            <r>
+              <c>dir swhzds</c>
+            </r>
+            <r>
+              <c>178915 vbzr.vgn</c>
+            </r>
+            <r>
+              <c>dir vcgv</c>
+            </r>
+            <r>
+              <c>$ cd pwwsrjc</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>173975 bgdj.jnw</c>
+            </r>
+            <r>
+              <c>202714 jwdv.qct</c>
+            </r>
+            <r>
+              <c>270702 wggrgcvw.rtp</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd swhzds</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>114686 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vcgv</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir fbqjmp</c>
+            </r>
+            <r>
+              <c>dir qlsgtfhf</c>
+            </r>
+            <r>
+              <c>dir vbzr</c>
+            </r>
+            <r>
+              <c>$ cd fbqjmp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>73065 fbqjmp.jfb</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>231428 shcvnqq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qlsgtfhf</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>75227 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vbzr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>128050 ncgffsr.gsj</c>
+            </r>
+            <r>
+              <c>187649 vbzr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd wspztvjr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir pntrhtwh</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>dir zfdzvv</c>
+            </r>
+            <r>
+              <c>$ cd pntrhtwh</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>237258 cffhtr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir ccwmftsj</c>
+            </r>
+            <r>
+              <c>$ cd ccwmftsj</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir mfc</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>12262 smpjmn</c>
+            </r>
+            <r>
+              <c>$ cd mfc</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>198047 fbqjmp.cgh</c>
+            </r>
+            <r>
+              <c>dir gghsht</c>
+            </r>
+            <r>
+              <c>205411 wlclz</c>
+            </r>
+            <r>
+              <c>$ cd gghsht</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>31767 vbzr.lmb</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir lgrghwf</c>
+            </r>
+            <r>
+              <c>$ cd lgrghwf</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>114786 shcvnqq.vrz</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd zfdzvv</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>54298 sjp</c>
+            </r>
+            <r>
+              <c>60303 tcmhrll.htm</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ncgffsr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir fqqsqmpr</c>
+            </r>
+            <r>
+              <c>dir gfznw</c>
+            </r>
+            <r>
+              <c>dir ncdft</c>
+            </r>
+            <r>
+              <c>dir pwmppt</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>196969 vbzr</c>
+            </r>
+            <r>
+              <c>214841 vzgvr</c>
+            </r>
+            <r>
+              <c>$ cd fqqsqmpr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir mcdjcntr</c>
+            </r>
+            <r>
+              <c>$ cd mcdjcntr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>281856 ncgffsr.lbm</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd gfznw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>255657 fzrctbsj.lgf</c>
+            </r>
+            <r>
+              <c>dir ltfsndpd</c>
+            </r>
+            <r>
+              <c>175434 qnbq</c>
+            </r>
+            <r>
+              <c>31794 qnbq.zhd</c>
+            </r>
+            <r>
+              <c>13366 shcvnqq.wld</c>
+            </r>
+            <r>
+              <c>dir vcspqgn</c>
+            </r>
+            <r>
+              <c>235199 wmnjjd.bnh</c>
+            </r>
+            <r>
+              <c>dir wqpnp</c>
+            </r>
+            <r>
+              <c>$ cd ltfsndpd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir ncgffsr</c>
+            </r>
+            <r>
+              <c>dir zpzvdhb</c>
+            </r>
+            <r>
+              <c>$ cd ncgffsr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>9898 jjbsnj.gcg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd zpzvdhb</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>106139 lnp</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vcspqgn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>25386 dgsmmqj</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd wqpnp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>65905 wjtbfvjp.fmd</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ncdft</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>34616 bzlpmsqc</c>
+            </r>
+            <r>
+              <c>59863 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>64629 zpzjcl.fmp</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd pwmppt</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir dwnqgrzm</c>
+            </r>
+            <r>
+              <c>80901 vbzr.vsg</c>
+            </r>
+            <r>
+              <c>89557 vbzr.zlz</c>
+            </r>
+            <r>
+              <c>$ cd dwnqgrzm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>184770 jwdv.qct</c>
+            </r>
+            <r>
+              <c>dir vbzr</c>
+            </r>
+            <r>
+              <c>$ cd vbzr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>210329 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>62272 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>128433 gbh</c>
+            </r>
+            <r>
+              <c>30208 hjbw</c>
+            </r>
+            <r>
+              <c>200071 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>dir sgcz</c>
+            </r>
+            <r>
+              <c>25045 tbhlwfqg.hts</c>
+            </r>
+            <r>
+              <c>$ cd sgcz</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>193481 gbh</c>
+            </r>
+            <r>
+              <c>96461 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>236171 shcvnqq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd rqdngnrq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir cprnb</c>
+            </r>
+            <r>
+              <c>280135 hshsfqwm</c>
+            </r>
+            <r>
+              <c>dir hwhm</c>
+            </r>
+            <r>
+              <c>245626 qnbq</c>
+            </r>
+            <r>
+              <c>145502 qspgdz</c>
+            </r>
+            <r>
+              <c>114231 rctg.tgt</c>
+            </r>
+            <r>
+              <c>dir zgn</c>
+            </r>
+            <r>
+              <c>$ cd cprnb</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>115025 twwgmmp.wbb</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd hwhm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>229849 cvm</c>
+            </r>
+            <r>
+              <c>190622 jwdv.qct</c>
+            </r>
+            <r>
+              <c>dir mscztz</c>
+            </r>
+            <r>
+              <c>dir ncgffsr</c>
+            </r>
+            <r>
+              <c>$ cd mscztz</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>59743 bzgpzn.bds</c>
+            </r>
+            <r>
+              <c>75184 pbdgv</c>
+            </r>
+            <r>
+              <c>181089 shcvnqq.dhq</c>
+            </r>
+            <r>
+              <c>dir zqgtr</c>
+            </r>
+            <r>
+              <c>$ cd zqgtr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>189142 ffnznfs.nct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ncgffsr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir dphrnjl</c>
+            </r>
+            <r>
+              <c>dir zzfztql</c>
+            </r>
+            <r>
+              <c>$ cd dphrnjl</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>117317 vbzr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd zzfztql</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>51096 lztgs</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd zgn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir bpbzwgz</c>
+            </r>
+            <r>
+              <c>dir gqnw</c>
+            </r>
+            <r>
+              <c>75631 ljptj</c>
+            </r>
+            <r>
+              <c>283351 ljzhsw.rbs</c>
+            </r>
+            <r>
+              <c>131158 lztgs</c>
+            </r>
+            <r>
+              <c>dir ncgffsr</c>
+            </r>
+            <r>
+              <c>3136 nnpl.swf</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>dir vbzr</c>
+            </r>
+            <r>
+              <c>$ cd bpbzwgz</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>29659 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>15547 shcvnqq</c>
+            </r>
+            <r>
+              <c>117389 zprhsdfv</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd gqnw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>117091 brqwhst.jgb</c>
+            </r>
+            <r>
+              <c>88406 nzjmbrrm.hmh</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ncgffsr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>195821 gbh</c>
+            </r>
+            <r>
+              <c>dir lbzgc</c>
+            </r>
+            <r>
+              <c>226692 llqqr.spq</c>
+            </r>
+            <r>
+              <c>247989 lztgs</c>
+            </r>
+            <r>
+              <c>231909 vnctc</c>
+            </r>
+            <r>
+              <c>157973 wqnggh</c>
+            </r>
+            <r>
+              <c>$ cd lbzgc</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>251414 ffmsbscc.dqg</c>
+            </r>
+            <r>
+              <c>46840 lztgs</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir dvvmhzcq</c>
+            </r>
+            <r>
+              <c>dir ncgffsr</c>
+            </r>
+            <r>
+              <c>dir sqzzllv</c>
+            </r>
+            <r>
+              <c>$ cd dvvmhzcq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>70226 qvvm.rpp</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>103994 bfcjrmvr.ltq</c>
+            </r>
+            <r>
+              <c>dir fbqjmp</c>
+            </r>
+            <r>
+              <c>dir fcs</c>
+            </r>
+            <r>
+              <c>177152 gjghvvw.bzg</c>
+            </r>
+            <r>
+              <c>dir lbfjqh</c>
+            </r>
+            <r>
+              <c>78412 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>dir sgjtm</c>
+            </r>
+            <r>
+              <c>286995 shcvnqq</c>
+            </r>
+            <r>
+              <c>51750 wmq.vjj</c>
+            </r>
+            <r>
+              <c>$ cd fbqjmp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>267212 qhhb.zvg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd fcs</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>272051 znhsswwh.mjj</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd lbfjqh</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>261487 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd sgjtm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir dnznpj</c>
+            </r>
+            <r>
+              <c>dir jzsntnbs</c>
+            </r>
+            <r>
+              <c>dir nqgcbd</c>
+            </r>
+            <r>
+              <c>dir vdg</c>
+            </r>
+            <r>
+              <c>$ cd dnznpj</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>173938 hrp.cjq</c>
+            </r>
+            <r>
+              <c>180485 qnbq.thj</c>
+            </r>
+            <r>
+              <c>215400 ztvt.wnt</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd jzsntnbs</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>67448 gpvgh.psg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd nqgcbd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>196250 fbqjmp.qcv</c>
+            </r>
+            <r>
+              <c>198482 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vdg</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>257343 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>156769 fbqjmp.hdb</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ncgffsr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>205473 fbqjmp</c>
+            </r>
+            <r>
+              <c>113067 gsvznzz.qtv</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd sqzzllv</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>146018 ddvjgswr.gsq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vbzr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir vbzr</c>
+            </r>
+            <r>
+              <c>$ cd vbzr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>266721 mhlfqpbs.pwr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir slnvdd</c>
+            </r>
+            <r>
+              <c>$ cd slnvdd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>90875 pzqv.gnv</c>
+            </r>
+            <r>
+              <c>207484 rbrj.vcr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vsd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir dfb</c>
+            </r>
+            <r>
+              <c>dir fqqnsph</c>
+            </r>
+            <r>
+              <c>dir gbwdhjr</c>
+            </r>
+            <r>
+              <c>18837 jwdv.qct</c>
+            </r>
+            <r>
+              <c>dir ncgffsr</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>dir rjzjrbvs</c>
+            </r>
+            <r>
+              <c>$ cd dfb</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir bpst</c>
+            </r>
+            <r>
+              <c>66174 jwdv.qct</c>
+            </r>
+            <r>
+              <c>dir lcwhfzjw</c>
+            </r>
+            <r>
+              <c>$ cd bpst</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir nqftnn</c>
+            </r>
+            <r>
+              <c>dir pcvgnvnp</c>
+            </r>
+            <r>
+              <c>$ cd nqftnn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir bbrsg</c>
+            </r>
+            <r>
+              <c>dir gjfc</c>
+            </r>
+            <r>
+              <c>dir hfql</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>139226 shcvnqq.sbd</c>
+            </r>
+            <r>
+              <c>dir ssnjqbg</c>
+            </r>
+            <r>
+              <c>$ cd bbrsg</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>73382 vjcf</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd gjfc</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>164310 gbh</c>
+            </r>
+            <r>
+              <c>126316 mmqnrc</c>
+            </r>
+            <r>
+              <c>133899 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>102615 rgfhrt</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd hfql</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>14685 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>119597 lztgs</c>
+            </r>
+            <r>
+              <c>34165 shcvnqq.zcg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ssnjqbg</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>77678 gqdfbqj.tmj</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd pcvgnvnp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>21250 lhq</c>
+            </r>
+            <r>
+              <c>266619 qps.crp</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd lcwhfzjw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir bhdnnbvm</c>
+            </r>
+            <r>
+              <c>dir fdnsvfh</c>
+            </r>
+            <r>
+              <c>12002 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>dir lfdbzfl</c>
+            </r>
+            <r>
+              <c>46488 ncgffsr</c>
+            </r>
+            <r>
+              <c>233704 nthcv.pnc</c>
+            </r>
+            <r>
+              <c>204660 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>172482 shcvnqq</c>
+            </r>
+            <r>
+              <c>dir tlw</c>
+            </r>
+            <r>
+              <c>$ cd bhdnnbvm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>37204 fwrdjw.zvv</c>
+            </r>
+            <r>
+              <c>3248 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd fdnsvfh</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>20765 jlfgnwb.szl</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd lfdbzfl</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir fspntmld</c>
+            </r>
+            <r>
+              <c>183925 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>$ cd fspntmld</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>251568 lztgs</c>
+            </r>
+            <r>
+              <c>146785 ncgffsr.mmj</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd tlw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir qqn</c>
+            </r>
+            <r>
+              <c>$ cd qqn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>39232 lprqfwf</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd fqqnsph</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>132318 lztgs</c>
+            </r>
+            <r>
+              <c>103863 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>18793 tngbs</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd gbwdhjr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>253798 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ncgffsr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>110767 blctz.tqz</c>
+            </r>
+            <r>
+              <c>dir csfssn</c>
+            </r>
+            <r>
+              <c>dir dbbfz</c>
+            </r>
+            <r>
+              <c>dir hjgm</c>
+            </r>
+            <r>
+              <c>dir hwd</c>
+            </r>
+            <r>
+              <c>249139 rgcz.gnz</c>
+            </r>
+            <r>
+              <c>dir wgw</c>
+            </r>
+            <r>
+              <c>$ cd csfssn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir dlcw</c>
+            </r>
+            <r>
+              <c>dir jqspd</c>
+            </r>
+            <r>
+              <c>119066 mlwlc.mql</c>
+            </r>
+            <r>
+              <c>dir ncgffsr</c>
+            </r>
+            <r>
+              <c>203475 nwnbsc</c>
+            </r>
+            <r>
+              <c>143071 qnbq</c>
+            </r>
+            <r>
+              <c>116623 qvw.gjz</c>
+            </r>
+            <r>
+              <c>83637 whm.cdg</c>
+            </r>
+            <r>
+              <c>$ cd dlcw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>232066 gqllsd.qpl</c>
+            </r>
+            <r>
+              <c>1046 mfsh</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd jqspd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>251070 mthmm.bmh</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ncgffsr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>83639 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd dbbfz</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>112576 jgqf.qmj</c>
+            </r>
+            <r>
+              <c>148549 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>144811 jwdv.qct</c>
+            </r>
+            <r>
+              <c>23726 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>123802 pgdjchrf.vnm</c>
+            </r>
+            <r>
+              <c>dir vzfbzbcp</c>
+            </r>
+            <r>
+              <c>$ cd vzfbzbcp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>39375 fbqq</c>
+            </r>
+            <r>
+              <c>31914 jwdv.qct</c>
+            </r>
+            <r>
+              <c>165999 lztgs</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd hjgm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir ljqjtdmf</c>
+            </r>
+            <r>
+              <c>100534 mdw</c>
+            </r>
+            <r>
+              <c>219057 qnbq</c>
+            </r>
+            <r>
+              <c>97164 rzjwmvdw.vlv</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>83034 vbzr</c>
+            </r>
+            <r>
+              <c>$ cd ljqjtdmf</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>23716 dmslzv.qns</c>
+            </r>
+            <r>
+              <c>159519 gbh</c>
+            </r>
+            <r>
+              <c>dir hlvbmpg</c>
+            </r>
+            <r>
+              <c>dir nlqqshp</c>
+            </r>
+            <r>
+              <c>247315 vqt</c>
+            </r>
+            <r>
+              <c>dir wlsjnthg</c>
+            </r>
+            <r>
+              <c>$ cd hlvbmpg</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>54421 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd nlqqshp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir rvzprwhp</c>
+            </r>
+            <r>
+              <c>$ cd rvzprwhp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>35024 lztgs</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd wlsjnthg</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>29178 gnrlgb.bgh</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>150311 nvrd</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd hwd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir jzqtmm</c>
+            </r>
+            <r>
+              <c>$ cd jzqtmm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>103547 jtvdt.jtn</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd wgw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir mmhlt</c>
+            </r>
+            <r>
+              <c>$ cd mmhlt</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir cmwjh</c>
+            </r>
+            <r>
+              <c>$ cd cmwjh</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>243844 qnbq.shn</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir dhfng</c>
+            </r>
+            <r>
+              <c>dir fbqjmp</c>
+            </r>
+            <r>
+              <c>16855 rgrszmrh.lbl</c>
+            </r>
+            <r>
+              <c>dir rqjs</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>38322 vhvrmq</c>
+            </r>
+            <r>
+              <c>$ cd dhfng</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>132537 gwngz.hpt</c>
+            </r>
+            <r>
+              <c>dir lbccc</c>
+            </r>
+            <r>
+              <c>182221 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>$ cd lbccc</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>282448 fbqjmp.njj</c>
+            </r>
+            <r>
+              <c>267049 gbh</c>
+            </r>
+            <r>
+              <c>dir jtj</c>
+            </r>
+            <r>
+              <c>dir ntnn</c>
+            </r>
+            <r>
+              <c>dir vbfgmmvw</c>
+            </r>
+            <r>
+              <c>128500 vbzr</c>
+            </r>
+            <r>
+              <c>$ cd jtj</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir hvmlh</c>
+            </r>
+            <r>
+              <c>$ cd hvmlh</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>131886 dmww.sqc</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ntnn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>109064 lgh.bbf</c>
+            </r>
+            <r>
+              <c>dir wfgdd</c>
+            </r>
+            <r>
+              <c>53862 wflv.ngc</c>
+            </r>
+            <r>
+              <c>$ cd wfgdd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>58756 gbh</c>
+            </r>
+            <r>
+              <c>dir lgzlndn</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>$ cd lgzlndn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>190415 dwsqvczd</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>240922 znjhmhp.ngt</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vbfgmmvw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>271827 vbzr.dfl</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd fbqjmp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>144993 gvpnf</c>
+            </r>
+            <r>
+              <c>150786 jwdv.qct</c>
+            </r>
+            <r>
+              <c>49025 pdcwwtt.grs</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd rqjs</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir bwnzs</c>
+            </r>
+            <r>
+              <c>119390 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>172042 vjzg</c>
+            </r>
+            <r>
+              <c>$ cd bwnzs</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>108537 hzzgm.zrn</c>
+            </r>
+            <r>
+              <c>38699 qgfqbfr</c>
+            </r>
+            <r>
+              <c>dir vhvcfhvr</c>
+            </r>
+            <r>
+              <c>$ cd vhvcfhvr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>2783 jwdv.qct</c>
+            </r>
+            <r>
+              <c>209933 mgj.nvj</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>257312 fbqjmp</c>
+            </r>
+            <r>
+              <c>193792 msdqtrpn.grn</c>
+            </r>
+            <r>
+              <c>98165 rgm</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd rjzjrbvs</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir ftrlfg</c>
+            </r>
+            <r>
+              <c>dir mtrnl</c>
+            </r>
+            <r>
+              <c>dir rdpbbd</c>
+            </r>
+            <r>
+              <c>dir shcvnqq</c>
+            </r>
+            <r>
+              <c>dir vztnr</c>
+            </r>
+            <r>
+              <c>$ cd ftrlfg</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>196590 cjjvwjb</c>
+            </r>
+            <r>
+              <c>dir ffsvh</c>
+            </r>
+            <r>
+              <c>70123 ldnbc</c>
+            </r>
+            <r>
+              <c>dir lwnfc</c>
+            </r>
+            <r>
+              <c>106499 lztgs</c>
+            </r>
+            <r>
+              <c>dir ncgffsr</c>
+            </r>
+            <r>
+              <c>dir tfdctq</c>
+            </r>
+            <r>
+              <c>dir vgthdbf</c>
+            </r>
+            <r>
+              <c>80852 zndjt.wtl</c>
+            </r>
+            <r>
+              <c>$ cd ffsvh</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>20370 dvdftpvb.qcj</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd lwnfc</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir fgmd</c>
+            </r>
+            <r>
+              <c>dir gmdjt</c>
+            </r>
+            <r>
+              <c>274331 hmgjmq.vbz</c>
+            </r>
+            <r>
+              <c>9726 qjfdqbf.dfj</c>
+            </r>
+            <r>
+              <c>dir ssnncn</c>
+            </r>
+            <r>
+              <c>$ cd fgmd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>280608 jwdv.qct</c>
+            </r>
+            <r>
+              <c>201912 rqtbw.shd</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd gmdjt</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>202107 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ssnncn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>140697 jwdv.qct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ncgffsr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>227389 fpdfqp.fzl</c>
+            </r>
+            <r>
+              <c>164141 hzhrrvpm.hlf</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd tfdctq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir cttmzlw</c>
+            </r>
+            <r>
+              <c>dir ntvtm</c>
+            </r>
+            <r>
+              <c>257094 qnbq.zjm</c>
+            </r>
+            <r>
+              <c>284928 shcvnqq</c>
+            </r>
+            <r>
+              <c>$ cd cttmzlw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>142651 rptschdv.mgv</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ntvtm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>176269 dhpj</c>
+            </r>
+            <r>
+              <c>88278 gbh</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vgthdbf</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>130998 ncgffsr.mnf</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd mtrnl</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>86144 djwnvdj</c>
+            </r>
+            <r>
+              <c>122600 gsdpwh.cmb</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd rdpbbd</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>177384 gbh</c>
+            </r>
+            <r>
+              <c>dir gstfdm</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>dir qtj</c>
+            </r>
+            <r>
+              <c>260302 vbzr.dhq</c>
+            </r>
+            <r>
+              <c>$ cd gstfdm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>23734 mnwzrm.hzr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>51705 gmt</c>
+            </r>
+            <r>
+              <c>205537 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>94469 vbzr.bvj</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qtj</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir tls</c>
+            </r>
+            <r>
+              <c>dir zvpcfhg</c>
+            </r>
+            <r>
+              <c>$ cd tls</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir chvgwnt</c>
+            </r>
+            <r>
+              <c>dir jvgnmfjw</c>
+            </r>
+            <r>
+              <c>$ cd chvgwnt</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir rbw</c>
+            </r>
+            <r>
+              <c>dir srhj</c>
+            </r>
+            <r>
+              <c>$ cd rbw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>174372 btjd.bvv</c>
+            </r>
+            <r>
+              <c>272995 cnqqh.dfc</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd srhj</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>134054 qwzpr</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd jvgnmfjw</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir hdcwbwgm</c>
+            </r>
+            <r>
+              <c>236775 sdc</c>
+            </r>
+            <r>
+              <c>$ cd hdcwbwgm</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>113707 ntnr.lrq</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd zvpcfhg</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir lsq</c>
+            </r>
+            <r>
+              <c>$ cd lsq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>220331 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd shcvnqq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir cmwrqgfq</c>
+            </r>
+            <r>
+              <c>258731 fbqjmp.fvn</c>
+            </r>
+            <r>
+              <c>277895 gbh</c>
+            </r>
+            <r>
+              <c>64973 jlcg.dsg</c>
+            </r>
+            <r>
+              <c>77978 jwdv.qct</c>
+            </r>
+            <r>
+              <c>dir lttjrdn</c>
+            </r>
+            <r>
+              <c>dir sqgnhc</c>
+            </r>
+            <r>
+              <c>$ cd cmwrqgfq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>81199 gbh</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd lttjrdn</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>23355 gbh</c>
+            </r>
+            <r>
+              <c>148263 hcgfqdw</c>
+            </r>
+            <r>
+              <c>57338 hjwr</c>
+            </r>
+            <r>
+              <c>166510 jbvnmcj</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd sqgnhc</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>dir glswqrdp</c>
+            </r>
+            <r>
+              <c>dir qnbq</c>
+            </r>
+            <r>
+              <c>$ cd glswqrdp</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>225761 ncgffsr.vct</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd qnbq</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>62861 pdqz.wzs</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vztnr</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>189943 wvtlfsp</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd ..</c>
+            </r>
+            <r>
+              <c>$ cd vtzvf</c>
+            </r>
+            <r>
+              <c>$ ls</c>
+            </r>
+            <r>
+              <c>43248 jwdv.qct</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="282" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Field1</UpdateField_Name>
+          <CreateField_Name>Current directory</CreateField_Name>
+          <CreateField_Type>V_String</CreateField_Type>
+          <CreateField_Size>254</CreateField_Size>
+          <OtherRows>NULL</OtherRows>
+          <NumRows value="1" />
+          <Expression>If [Field1]='$ cd ..' THEN Regex_replace([row-1:Current Directory],'(.*)\\.*','\1')
+ELSEIF startswith([Field1],'$ cd ') THEN [row-1:Current Directory]+'\'+Replace([field1],'$ cd ','')
+ELSE [row-1:Current Directory]
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Create current directory</AnnotationText>
+          <DefaultAnnotationText>If [Field1]='$ cd ..' THEN Regex_replace([row-1:Current Direc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF !startswith([Field1],'$') AND !StartsWith([Field1],'dir ')&#xA;THEN tonumber(REGEX_Replace([Field1],'(\d+) .*','\1'))&#xA;ELSE NULL()&#xA;ENDIF" field="Size" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Parse Size</AnnotationText>
+          <DefaultAnnotationText>Size = IF !startswith([Field1],'$') AND !StartsWith([Field1],'dir ')
+THEN tonumb...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="510" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Size</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-12-07 14:52:25</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-12-07 14:52:25</StartDate>
+              <EndDate>2022-12-07 14:52:25</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Size])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="510" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Current directory" action="GroupBy" rename="Current directory" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>GB current directory</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="630" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source_Current directory" selected="True" rename="TLD" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="726" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>StartsWith([Current directory],[TLD])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>StartsWith([Current directory],[TLD])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="846" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="TLD" action="GroupBy" rename="TLD" />
+            <SummarizeField field="Size" action="Sum" rename="Size" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sum size per tld</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="978" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&lt;=</Operator>
+            <Field>Size</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-12-07 14:32:55</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>100000</Operand>
+              <StartDate>2022-12-07 14:32:55</StartDate>
+              <EndDate>2022-12-07 14:32:55</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Size] &lt;= 100000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1086" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Size" action="Sum" rename="Ans" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="954" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>TLD</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-12-07 14:47:58</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2022-12-07 14:47:58</StartDate>
+              <EndDate>2022-12-07 14:47:58</EndDate>
+              <Operand>\/</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[TLD] = "\/"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1062" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="30000000-(70000000-[Size])" field="Space" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Space = 30000000-(70000000-[Size])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1158" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source_TLD" selected="False" rename="Source_TLD" input="Source_" />
+                <SelectField field="Source_Size" selected="False" rename="Source_Size" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1254" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Size] &gt;= [Space]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Size] &gt;= [Space]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1362" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Size" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Size - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1470" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1566" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="TLD" selected="False" />
+            <SelectField field="Size" selected="True" rename="Ans" />
+            <SelectField field="Space" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="True" />
+      <Destination ToolID="47" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="56" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="56" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="True" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="True" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="True" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day 7</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="79492b08-fb4a-4b96-a1d6-2f951f608f36" />
+      <Telemetry>
+        <PreviousWorkflowId value="80be3a3d-b13f-4e60-9a1a-fdfb55f82aa4" />
+        <OriginWorkflowId value="80be3a3d-b13f-4e60-9a1a-fdfb55f82aa4" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
